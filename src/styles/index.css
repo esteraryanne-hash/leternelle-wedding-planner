@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors from DESIGN.md */
+  --color-surface: #fbf9f6;
+  --color-surface-dim: #dbdad7;
+  --color-surface-bright: #fbf9f6;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f3f0;
+  --color-surface-container: #efeeeb;
+  --color-surface-container-high: #eae8e5;
+  --color-surface-container-highest: #e4e2df;
+  
+  --color-on-surface: #1b1c1a;
+  --color-on-surface-variant: #4a4640;
+  
+  --color-inverse-surface: #30312f;
+  --color-inverse-on-surface: #f2f0ed;
+  
+  --color-outline: #7b766f;
+  --color-outline-variant: #ccc6bd;
+  --color-surface-tint: #605e5c;
+  
+  --color-primary: #050504;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #1f1e1d;
+  --color-on-primary-container: #888584;
+  --color-inverse-primary: #cac6c4;
+  
+  --color-secondary: #725b38;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fedeb2;
+  --color-on-secondary-container: #78603e;
+  
+  --color-tertiary: #060403;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #221d1a;
+  --color-on-tertiary-container: #8c847f;
+  
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+  
+  --color-primary-fixed: #e6e2df;
+  --color-primary-fixed-dim: #cac6c4;
+  --color-on-primary-fixed: #1c1b1a;
+  --color-on-primary-fixed-variant: #484645;
+  
+  --color-secondary-fixed: #fedeb2;
+  --color-secondary-fixed-dim: #e0c298;
+  --color-on-secondary-fixed: #281800;
+  --color-on-secondary-fixed-variant: #584323;
+  
+  --color-tertiary-fixed: #ebe1db;
+  --color-tertiary-fixed-dim: #cec5bf;
+  --color-on-tertiary-fixed: #1f1b17;
+  --color-on-tertiary-fixed-variant: #4c4641;
+  
+  --color-background: #fbf9f6;
+  --color-on-background: #1b1c1a;
+  --color-surface-variant: #e4e2df;
+
+  /* Typography */
+  --font-display-lg: "Playfair Display", serif;
+  --font-display-lg-mobile: "Playfair Display", serif;
+  --font-display-sm: "Playfair Display", serif;
+  --font-display-sm-mobile: "Playfair Display", serif;
+  --font-headline-lg: "Playfair Display", serif;
+  --font-headline-md: "Playfair Display", serif;
+  --font-headline-sm: "Playfair Display", serif;
+  
+  --font-body-lg: "Plus Jakarta Sans", sans-serif;
+  --font-body-md: "Plus Jakarta Sans", sans-serif;
+  --font-body-sm: "Plus Jakarta Sans", sans-serif;
+  --font-label-lg: "Plus Jakarta Sans", sans-serif;
+  --font-label-md: "Plus Jakarta Sans", sans-serif;
+  --font-label-sm: "Plus Jakarta Sans", sans-serif;
+
+  /* Spacing */
+  --spacing-space-2xs: 0.25rem;
+  --spacing-space-xs: 0.5rem;
+  --spacing-space-sm: 0.75rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-space-2xl: 4rem;
+  --spacing-space-3xl: 6rem;
+  --spacing-space-4xl: 8rem;
+  
+  --spacing-gutter-mobile: 1.25rem;
+  --spacing-gutter-tablet: 2rem;
+  --spacing-gutter-desktop: 3rem;
+  
+  --spacing-margin-mobile: 1.5rem;
+  --spacing-margin-tablet: 3rem;
+  --spacing-margin-desktop: 6rem;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overscroll-behavior: none;
+  }
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
