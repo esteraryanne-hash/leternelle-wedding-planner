@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-high":"#eae8e5","tertiary":"#060403","inverse-on-surface":"#f2f0ed","on-tertiary":"#ffffff","primary":"#050504","error":"#ba1a1a","on-secondary-fixed-variant":"#584323","background":"#fbf9f6","tertiary-fixed":"#ebe1db","surface-container-highest":"#e4e2df","surface-dim":"#dbdad7","on-surface-variant":"#4a4640","outline":"#7b766f","secondary-container":"#fedeb2","on-tertiary-container":"#8c847f","primary-fixed":"#e6e2df","on-secondary-fixed":"#281800","on-primary-fixed":"#1c1b1a","secondary":"#725b38","on-tertiary-fixed-variant":"#4c4641","primary-container":"#1f1e1d","surface-container":"#efeeeb","surface-container-lowest":"#ffffff","on-error-container":"#93000a","on-error":"#ffffff","surface-tint":"#605e5c","outline-variant":"#ccc6bd","inverse-surface":"#30312f","on-primary":"#ffffff","secondary-fixed":"#fedeb2","secondary-fixed-dim":"#e0c298","error-container":"#ffdad6","on-surface":"#1b1c1a","primary-fixed-dim":"#cac6c4","tertiary-fixed-dim":"#cec5bf","surface-container-low":"#f5f3f0","tertiary-container":"#221d1a","on-background":"#1b1c1a","surface":"#fbf9f6","on-primary-container":"#888584","on-tertiary-fixed":"#1f1b17","surface-bright":"#fbf9f6","inverse-primary":"#cac6c4","on-secondary-container":"#78603e","surface-variant":"#e4e2df","on-secondary":"#ffffff","on-primary-fixed-variant":"#484645"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"gutter-mobile":"1.25rem","space-lg":"1.5rem","space-xl":"2.5rem","space-sm":"0.75rem","space-3xl":"6rem","gutter-tablet":"2rem","space-2xl":"4rem","gutter-desktop":"3rem","space-4xl":"8rem","margin-desktop":"6rem","space-md":"1rem","margin-mobile":"1.5rem","space-xs":"0.5rem","margin-tablet":"3rem","space-2xs":"0.25rem"},fontFamily:{"body-lg":["Plus Jakarta Sans"],"label-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"display-sm-mobile":["Playfair Display"],"body-sm":["Plus Jakarta Sans"],"display-lg-mobile":["Playfair Display"],"display-lg":["Playfair Display"],"label-sm":["Plus Jakarta Sans"],"headline-sm":["Playfair Display"],"display-sm":["Playfair Display"],"body-md":["Plus Jakarta Sans"],"headline-lg":["Playfair Display"],"headline-md":["Playfair Display"]},fontSize:{"body-lg":["18px",{"lineHeight":"30px","letterSpacing":"0.01em","fontWeight":"300"}],"label-lg":["13px",{"lineHeight":"18px","letterSpacing":"0.14em","fontWeight":"600"}],"label-md":["11px",{"lineHeight":"16px","letterSpacing":"0.16em","fontWeight":"600"}],"display-sm-mobile":["30px",{"lineHeight":"38px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.015em","fontWeight":"400"}],"display-lg-mobile":["38px",{"lineHeight":"46px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.01em","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.18em","fontWeight":"600"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0.02em","fontWeight":"500"}],"display-sm":["40px",{"lineHeight":"48px","letterSpacing":"0em","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-md":["24px",{"lineHeight":"32px","letterSpacing":"0.02em","fontWeight":"400"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-secondary-container selection:text-on-secondary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-20 max-w-[1440px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="L'Éternelle Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wb8uZQ-tXryT640L1p8awFUlsNI8mMUQd1Bv8lyvhtUAToVx0s-6kH4AEdGF2gLbNagDTCtrtCXJ5ndT_Dd62GHB176Wi_6O1nQS0SMKIQ2sLNtGphQMRO9anFFiEK53Iivepv8mbySzSRKI-iiiz1p3lVHIWSxGHjh7r3Vty43q4mMga2YielmA0SQtBIHhMWHNitMvHXKK81yGk4vy1iaeDkFpBK7XyhN_j8Vd694aMb-2X3btN25S9s"/><a class="flex flex-col text-left group" data-path="home" href="#"><span class="font-headline-sm text-headline-sm tracking-wide text-primary transition-colors group-hover:text-secondary">L'Éternelle</span><span class="font-label-sm text-label-sm uppercase text-secondary -mt-1">Atelier de Mariage</span></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-bold border-b border-secondary"><a aria-current="page" class="uppercase transition-colors py-1 text-primary font-bold border-b border-secondary" data-path="home" href="#">Home</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="about" href="#">About</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="services" href="#">Services</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="weddings" href="#">Weddings</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="testimonials" href="#">Testimonials</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center font-label-md text-label-md uppercase px-space-md py-space-sm bg-primary-container text-on-primary hover:bg-primary transition-colors tracking-widest" data-path="contact" href="#">Let's Plan Your Wedding</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><button aria-label="Open Navigation Menu" class="xl:hidden p-space-2xs text-on-surface hover:text-primary transition-colors" type="button"><span class="material-symbols-outlined text-[26px]">menu</span></button></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full selection:bg-secondary-container selection:text-on-secondary-fixed">
+<!-- SECTION 1: HERO SECTION -->
+<section class="relative w-full -mt-20 overflow-hidden min-h-[92vh] flex items-center justify-center">
+<div class="absolute inset-0 z-0">
+<img alt="Editorial Lake Como Wedding at Sunset" class="w-full h-full object-cover object-center transform scale-105 transition-transform duration-1000 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClp7IhvPYbwRqnzJxXFCLZPpLV7PN582f-VTu6jAN4iL-6BziJAF4JBGD7mDJbubJCuP0exlQhQs8lHKcD5viGt6W7Uobmgxr1OXosHro6NZVtqyrtOskqrbK0jIQoFlQmj0xF6jKOYq4euJ6YISTjD_zZOCF4OKoIDe-ycQ_Fzj0tS3IPzn_z5O9q87mJKKQ2NfNW3Z0I8SkuN3jz5HaGTl1jvn6lfcBaPvt5aNiXoELz6TyammRawQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/35 to-primary/60 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-primary/20 backdrop-blur-[0.5px]"></div>
+</div>
+<div class="relative z-10 w-full max-w-[1440px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop pt-32 pb-20 flex flex-col items-center text-center">
+<!-- Eyebrow Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs bg-surface/20 backdrop-blur-md text-on-primary rounded-full mb-space-lg shadow-sm border border-outline-variant/30">
+<span class="material-symbols-outlined text-secondary-fixed text-[14px]">diamond</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-surface-bright">Atelier de Mariage — Paris &amp; Worldwide</span>
+<span class="material-symbols-outlined text-secondary-fixed text-[14px]">diamond</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-surface-bright max-w-4xl tracking-tight leading-[1.08] mb-space-md drop-shadow-sm">
+        Your Love Story Deserves an Extraordinary Celebration
+      </h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-surface-container-low max-w-2xl font-light mb-space-xl tracking-wide opacity-95">
+        We create timeless, meaningful, and beautifully curated weddings designed around your unique story and enduring romance.
+      </p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-space-md w-full sm:w-auto mb-space-2xl">
+<a class="w-full sm:w-auto inline-flex items-center justify-center font-label-md text-label-md uppercase px-8 py-4 bg-secondary-container text-on-secondary-fixed hover:bg-secondary-fixed-dim transition-all duration-300 tracking-[0.2em] shadow-lg hover:shadow-xl hover:-translate-y-0.5" href="#consultation">
+          Start Planning
+        </a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center font-label-md text-label-md uppercase px-8 py-4 bg-surface-container-lowest/15 backdrop-blur-sm text-surface-bright hover:bg-surface-container-lowest hover:text-primary transition-all duration-300 tracking-[0.2em] border border-surface-bright/40" href="#portfolio">
+          Explore Our Weddings
+        </a>
+</div>
+<!-- Subtle Editorial Floating Badge -->
+<div class="pt-space-md border-t border-surface-bright/20 flex flex-wrap items-center justify-center gap-x-space-lg gap-y-space-xs text-surface-container-low/90">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary-fixed-dim">Featured in</span>
+<span class="font-headline-sm text-headline-sm italic text-surface-bright text-[17px]">Vogue Weddings</span>
+<span class="w-1 h-1 rounded-full bg-surface-bright/40"></span>
+<span class="font-headline-sm text-headline-sm italic text-surface-bright text-[17px]">Harper's Bazaar Bride</span>
+<span class="w-1 h-1 rounded-full bg-surface-bright/40"></span>
+<span class="font-headline-sm text-headline-sm italic text-surface-bright text-[17px]">The Lane</span>
+<span class="w-1 h-1 rounded-full bg-surface-bright/40"></span>
+<span class="font-headline-sm text-headline-sm italic text-surface-bright text-[17px]">Over The Moon</span>
+</div>
+</div>
+</section>
+<!-- SECTION 2: INTRODUCTION / ABOUT -->
+<section class="w-full py-space-3xl md:py-space-4xl bg-surface">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl lg:gap-space-2xl items-center">
+<!-- Left Column: Editorial Photo with Offset Framing -->
+<div class="lg:col-span-5 relative">
+<div class="relative p-space-md bg-surface-container-low shadow-sm">
+<div class="overflow-hidden aspect-[3/4] relative">
+<img alt="Haute couture bride in French chateau" class="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRkCgZ267xIFTHPGUiNz6GK5eGjXUOrb469YRmlVu8NnR7G4cfLPCrimN2OSC3mDUUQykZDmBF2CBiowKJWK5gWKjnsHc6JLL7G0wyW_zhZHu8uM24DA_4mFNkGdakyzQC1z2roQ-kwP_j-Ta3NXZOQxuFyXN9siKo1lw1cG6WIsMhNXpz30AizQigX5sprPSfqIB7lWXOtF5t1wctLx77mnChlceo-JLgAzXSUUXDbgfdk4gJXW1pjA"/>
+</div>
+<div class="pt-space-sm flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary">Editorial Monograph</span>
+<span class="font-body-sm text-body-sm italic text-on-surface-variant">Château de Villette, Île-de-France</span>
+</div>
+</div>
+<!-- Decorative subtle offset block -->
+<div class="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary-container/40 -z-10 hidden sm:block"></div>
+</div>
+<!-- Right Column: Evocative Storytelling -->
+<div class="lg:col-span-7 space-y-space-lg lg:pl-space-md">
+<div class="space-y-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-[0.22em] text-secondary block">The Atelier Philosophy</span>
+<h2 class="font-display-sm text-display-sm-mobile md:text-display-sm text-primary tracking-tight">
+              More Than a Wedding. A Story to Remember.
+            </h2>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface-variant font-light leading-relaxed">
+            At L'Éternelle, we believe true luxury lies in unhurried presence. We choreograph celebrations where architecture, soft light, tactile linens, and scent harmoniously converge—capturing the intangible chemistry between two lives joining in quiet majesty.
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            From the initial sensory sketchbook to the candlelit final waltz, our directors oversee architectural floristry, Michelin-caliber gastronomy, and discreet multi-day logistics. With our atelier handling every nuanced coordination, you and your guests remain enveloped in effortless joy and deep connection.
+          </p>
+<!-- Stat Indicators -->
+<div class="grid grid-cols-3 gap-space-md pt-space-md pb-space-sm">
+<div class="space-y-1">
+<span class="font-display-sm text-display-sm text-primary block">12+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block">Years of Haute Artistry</span>
+</div>
+<div class="space-y-1">
+<span class="font-display-sm text-display-sm text-primary block">140+</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block">Celebrations in 14 Countries</span>
+</div>
+<div class="space-y-1">
+<span class="font-display-sm text-display-sm text-primary block">100%</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block">Bespoke Curation</span>
+</div>
+</div>
+<div class="pt-space-xs">
+<a class="inline-flex items-center gap-space-sm font-label-md text-label-md uppercase tracking-[0.16em] text-primary hover:text-secondary transition-colors group" href="#services">
+<span>Discover Our Story &amp; Craft</span>
+<span class="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: SERVICES -->
+<section class="w-full py-space-3xl md:py-space-4xl bg-surface-container-low" id="services">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-space-2xl space-y-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary">Artistry &amp; Offerings</span>
+<h2 class="font-display-sm text-display-sm-mobile md:text-display-sm text-primary">
+          How We Bring Your Vision to Life
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          Bespoke offerings tailored to the nuance, scale, and poetry of your journey.
+        </p>
+</div>
+<!-- 4 Services Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Card 1 -->
+<div class="bg-surface p-space-xl flex flex-col justify-between shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-headline-md text-headline-md italic font-normal">I</span>
+<span class="material-symbols-outlined text-[24px]">architecture</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-wide">Full Wedding Planning</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              From the first idea to the final celebration, we manage every detail. Comprehensive architectural design, venue acquisition, budget stewardship, and artisan vendor curation.
+            </p>
+</div>
+<div class="pt-space-lg">
+<a class="inline-flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors" href="#consultation">
+              Learn More <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface p-space-xl flex flex-col justify-between shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-headline-md text-headline-md italic font-normal">II</span>
+<span class="material-symbols-outlined text-[24px]">palette</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-wide">Partial Planning</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Professional guidance and support to help you complete your wedding plans. Design refinement, logistical harmonization, tabletop curation, and contract auditing.
+            </p>
+</div>
+<div class="pt-space-lg">
+<a class="inline-flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors" href="#consultation">
+              Learn More <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface p-space-xl flex flex-col justify-between shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-headline-md text-headline-md italic font-normal">III</span>
+<span class="material-symbols-outlined text-[24px]">schedule</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-wide">Day-Of Coordination</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Enjoy your wedding day while we take care of the timeline, vendors, and details. Flawless on-site production, discreet master management, and guest orchestration.
+            </p>
+</div>
+<div class="pt-space-lg">
+<a class="inline-flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors" href="#consultation">
+              Learn More <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="bg-surface p-space-xl flex flex-col justify-between shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md">
+<div class="space-y-space-md">
+<div class="flex items-center justify-between text-secondary">
+<span class="font-headline-md text-headline-md italic font-normal">IV</span>
+<span class="material-symbols-outlined text-[24px]">flight_takeoff</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary tracking-wide">Destination Weddings</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Beautiful celebrations designed in unforgettable locations. Specializing in Lake Como villas, Provence estates, Amalfi Coast terraces, and private European sanctuaries.
+            </p>
+</div>
+<div class="pt-space-lg">
+<a class="inline-flex items-center gap-space-xs font-label-sm text-label-sm uppercase tracking-widest text-primary hover:text-secondary transition-colors" href="#consultation">
+              Learn More <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: FEATURED WEDDINGS / PORTFOLIO -->
+<section class="w-full py-space-3xl md:py-space-4xl bg-surface" id="portfolio">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-2xl gap-space-md">
+<div class="space-y-space-2xs">
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary">Selected Works</span>
+<h2 class="font-display-sm text-display-sm-mobile md:text-display-sm text-primary">
+            Celebrations We've Brought to Life
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+            A curated glimpse into recent unforgettable celebrations across the world's most romantic vistas.
+          </p>
+</div>
+<a class="inline-flex items-center font-label-md text-label-md uppercase px-space-lg py-space-sm bg-primary-container text-on-primary hover:bg-primary transition-colors tracking-widest self-start md:self-auto" href="#consultation">
+          Commission Atelier
+        </a>
+</div>
+<!-- Asymmetrical Editorial Gallery -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-lg lg:gap-space-xl">
+<!-- Item 1: Provence Garden Dinner (Landscape - 7 cols) -->
+<div class="md:col-span-7 group cursor-pointer">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high mb-space-sm">
+<img alt="Provence outdoor candlelit dinner under olive trees" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuNgbqdj6tqvLAX4APqEGZmvgnGRj-dke5mf1UGuBW_h8MryZ6qMwtwN9JOYCzWrkbYMSq38vVXJ98yDCWFilAUH0NAGkNJ5jMrn_7Yj4wyepgtGso5AqQyUnfOpWFDbGdN4IjzTtictnJIurgbKUknzo8EuQ5WUocK6OrHxR6-PxYjMpSs1i9VWtx7FmAx3z2Tgf3I3eBfgL14cq-PWYFdnapwfYiNIhykf-XdHdsV4p-IaSODpqMPg"/>
+<div class="absolute top-4 left-4 bg-surface/85 backdrop-blur-md px-3 py-1 font-label-sm text-label-sm uppercase tracking-widest text-primary">
+              Provence, France
+            </div>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+              Camille &amp; Alexandre
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">
+              Luberon Olive Grove • 120 Guests • 3-Day Celebration of Provençal Gastronomy &amp; Strings
+            </p>
+</div>
+</div>
+<!-- Item 2: Chateau Bride Portrait (Portrait - 5 cols) -->
+<div class="md:col-span-5 group cursor-pointer md:mt-12">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-high mb-space-sm">
+<img alt="Sophisticated Paris Chateau wedding celebration" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRkCgZ267xIFTHPGUiNz6GK5eGjXUOrb469YRmlVu8NnR7G4cfLPCrimN2OSC3mDUUQykZDmBF2CBiowKJWK5gWKjnsHc6JLL7G0wyW_zhZHu8uM24DA_4mFNkGdakyzQC1z2roQ-kwP_j-Ta3NXZOQxuFyXN9siKo1lw1cG6WIsMhNXpz30AizQigX5sprPSfqIB7lWXOtF5t1wctLx77mnChlceo-JLgAzXSUUXDbgfdk4gJXW1pjA"/>
+<div class="absolute top-4 left-4 bg-surface/85 backdrop-blur-md px-3 py-1 font-label-sm text-label-sm uppercase tracking-widest text-primary">
+              Paris, France
+            </div>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+              Sophia &amp; Julian
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">
+              Grand Salon Haussmannien • Editorial Black-Tie Soirée &amp; Haute Couture
+            </p>
+</div>
+</div>
+<!-- Item 3: Lake Como Destination (5 cols) -->
+<div class="md:col-span-5 group cursor-pointer">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-high mb-space-sm">
+<img alt="Lake Como lakeside floral ceremony" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClp7IhvPYbwRqnzJxXFCLZPpLV7PN582f-VTu6jAN4iL-6BziJAF4JBGD7mDJbubJCuP0exlQhQs8lHKcD5viGt6W7Uobmgxr1OXosHro6NZVtqyrtOskqrbK0jIQoFlQmj0xF6jKOYq4euJ6YISTjD_zZOCF4OKoIDe-ycQ_Fzj0tS3IPzn_z5O9q87mJKKQ2NfNW3Z0I8SkuN3jz5HaGTl1jvn6lfcBaPvt5aNiXoELz6TyammRawQ"/>
+<div class="absolute top-4 left-4 bg-surface/85 backdrop-blur-md px-3 py-1 font-label-sm text-label-sm uppercase tracking-widest text-primary">
+              Lake Como, Italy
+            </div>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+              Elena &amp; Matteo
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">
+              Villa Balbianello Terraces • Cascading White Florals &amp; Sunset Wooden Boat Arrival
+            </p>
+</div>
+</div>
+<!-- Item 4: Modern Minimalist Rooftop (7 cols) -->
+<div class="md:col-span-7 group cursor-pointer md:-mt-8">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high mb-space-sm">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Sophisticated modern wedding dinner on a stylish New York rooftop in Tribeca at twilight, sleek minimalist tablescape with modern stemware, low architectural floral arrangements of white calla lilies, panoramic skyline with warm glowing lights in editorial Vogue style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9V95YtfLDja1RIiwybWuv7uaKcHAkMson7Gbr74e7kWU7gPxLuELy1te2vQPAk3-SZ6usxmmx1nD0pNqPSgI_W8x0HfOE5356c-um7boLdDQRyxTquJcaYlPTwQVsJ0F-Xz9_mrb8KT3Xi9g0H-jBQMsyjJdyunMG1iMKTLCwN4eHTS3meGFs-dCrRUce7psCqOSIjpI2-fLuUHSfIhllCwqfP7hl8aRT5Ths_z_9un8WLO1lPdueZA"/>
+<div class="absolute top-4 left-4 bg-surface/85 backdrop-blur-md px-3 py-1 font-label-sm text-label-sm uppercase tracking-widest text-primary">
+              New York, USA
+            </div>
+</div>
+<div class="space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-primary group-hover:text-secondary transition-colors">
+              Claire &amp; Harrison
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant font-light">
+              Tribeca Private Penthouse • Modernist Architecture &amp; Architectural Jazz Trio
+            </p>
+</div>
+</div>
+</div>
+<div class="mt-space-2xl text-center">
+<a class="inline-flex items-center justify-center font-label-md text-label-md uppercase px-10 py-4 bg-surface-container-low text-primary hover:bg-primary hover:text-on-primary transition-all duration-300 tracking-[0.2em] shadow-sm" href="#consultation">
+          View Full Wedding Portfolio
+        </a>
+</div>
+</div>
+</section>
+<!-- SECTION 5: PROCESS SECTION -->
+<section class="w-full py-space-3xl md:py-space-4xl bg-surface-container-low">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop">
+<div class="max-w-2xl mx-auto text-center mb-space-2xl space-y-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary">The Proven Journey</span>
+<h2 class="font-display-sm text-display-sm-mobile md:text-display-sm text-primary">
+          From Dream to Celebration
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          A seamless four-movement symphony ensuring tranquility and effortless precision.
+        </p>
+</div>
+<!-- 4 Horizontal Timeline Steps -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg">
+<!-- Step 1 -->
+<div class="bg-surface p-space-lg flex flex-col justify-between shadow-sm relative group">
+<div>
+<span class="font-display-sm text-display-sm text-secondary/60 block mb-space-sm">01</span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase tracking-wider mb-space-xs">Discover</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              We get to know your story, vision, and dreams. An intimate conversation over champagne to understand your aesthetic affinities, priorities, and celebration scale.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container-high flex items-center text-secondary font-label-sm text-label-sm uppercase tracking-widest">
+            Phase 01 • Consultation
+          </div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface p-space-lg flex flex-col justify-between shadow-sm relative group">
+<div>
+<span class="font-display-sm text-display-sm text-secondary/60 block mb-space-sm">02</span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase tracking-wider mb-space-xs">Design</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              We create a personalized wedding concept. Spatial 3D layouts, floral compositions, lighting schematics, stationery suites, and curated tactile tablescapes.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container-high flex items-center text-secondary font-label-sm text-label-sm uppercase tracking-widest">
+            Phase 02 • Conceptual Art
+          </div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface p-space-lg flex flex-col justify-between shadow-sm relative group">
+<div>
+<span class="font-display-sm text-display-sm text-secondary/60 block mb-space-sm">03</span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase tracking-wider mb-space-xs">Plan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              We organize every detail and coordinate trusted vendors. Flawless logistics, master production calendars, guest hospitality, and negotiations with world-class artisans.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container-high flex items-center text-secondary font-label-sm text-label-sm uppercase tracking-widest">
+            Phase 03 • Production
+          </div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface p-space-lg flex flex-col justify-between shadow-sm relative group">
+<div>
+<span class="font-display-sm text-display-sm text-secondary/60 block mb-space-sm">04</span>
+<h3 class="font-headline-sm text-headline-sm text-primary uppercase tracking-wider mb-space-xs">Celebrate</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              You enjoy your unforgettable day while our team discreetly commands the entire operation. Immersed in warmth, presence, and everlasting memories with loved ones.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-container-high flex items-center text-secondary font-label-sm text-label-sm uppercase tracking-widest">
+            Phase 04 • Perfection
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: TESTIMONIALS -->
+<section class="w-full py-space-3xl md:py-space-4xl bg-surface">
+<div class="max-w-[1440px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop">
+<div class="text-center max-w-xl mx-auto mb-space-2xl space-y-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary">Kind Words</span>
+<h2 class="font-display-sm text-display-sm-mobile md:text-display-sm text-primary">
+          Love Notes From Our Couples
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Testimonial 1 -->
+<div class="bg-surface-container-low p-space-xl flex flex-col justify-between shadow-sm">
+<div class="space-y-space-md">
+<div class="flex text-secondary gap-1">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm italic text-on-surface leading-relaxed font-normal">
+              “Every detail felt like us. L'Éternelle turned our dream into a celebration we will never forget. Walking into our reception under the olive trees brought us to tears of sheer joy.”
+            </p>
+</div>
+<div class="pt-space-lg mt-space-lg border-t border-surface-container-high">
+<h4 class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Charlotte &amp; Liam</h4>
+<p class="font-body-sm text-body-sm text-secondary">Villa Cimbrone, Ravello • Amalfi Coast</p>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-container-low p-space-xl flex flex-col justify-between shadow-sm">
+<div class="space-y-space-md">
+<div class="flex text-secondary gap-1">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm italic text-on-surface leading-relaxed font-normal">
+              “Working with L'Éternelle was the greatest decision we made. Their poise, impeccable taste, and calm mastery allowed us to truly be guests at our own wedding.”
+            </p>
+</div>
+<div class="pt-space-lg mt-space-lg border-t border-surface-container-high">
+<h4 class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Madeleine &amp; Antoine</h4>
+<p class="font-body-sm text-body-sm text-secondary">Château de Chantilly • France</p>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-container-low p-space-xl flex flex-col justify-between shadow-sm">
+<div class="space-y-space-md">
+<div class="flex text-secondary gap-1">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm italic text-on-surface leading-relaxed font-normal">
+              “They transformed our vision of a modern Lake Como weekend into pure poetry. Our guests are still raving that it was the single most breathtaking event of their lives.”
+            </p>
+</div>
+<div class="pt-space-lg mt-space-lg border-t border-surface-container-high">
+<h4 class="font-label-lg text-label-lg uppercase tracking-wider text-primary">Victoria &amp; Sebastian</h4>
+<p class="font-body-sm text-body-sm text-secondary">Villa Balbiano • Lake Como</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 7: FINAL CALL TO ACTION BANNER -->
+<section class="w-full relative py-space-3xl md:py-space-4xl bg-primary-container text-on-primary overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-r from-primary-container via-tertiary to-primary-container opacity-90"></div>
+<div class="absolute -right-24 -top-24 w-96 h-96 rounded-full bg-secondary/15 blur-3xl"></div>
+<div class="absolute -left-24 -bottom-24 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl"></div>
+<div class="relative z-10 max-w-4xl mx-auto px-gutter-mobile md:px-gutter-tablet text-center space-y-space-lg">
+<span class="font-label-md text-label-md uppercase tracking-[0.25em] text-secondary-fixed">Private Commissions</span>
+<h2 class="font-display-lg text-display-lg-mobile md:text-display-lg text-surface-bright tracking-tight leading-tight">
+        Let's Create Something Unforgettable
+      </h2>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim font-light max-w-2xl mx-auto">
+        Your wedding journey begins with an intimate conversation. We accept a limited number of commissions each season to ensure undivided dedication.
+      </p>
+<div class="pt-space-sm">
+<a class="inline-flex items-center justify-center font-label-md text-label-md uppercase px-10 py-4 bg-secondary-container text-on-secondary-fixed hover:bg-secondary-fixed transition-all duration-300 tracking-[0.2em] shadow-xl hover:shadow-2xl hover:-translate-y-0.5" href="#consultation">
+          Start Planning Your Wedding
+        </a>
+</div>
+</div>
+</section>
+<!-- SECTION 8: CONTACT / CONSULTATION FORM -->
+<section class="w-full py-space-3xl md:py-space-4xl bg-surface" id="consultation">
+<div class="max-w-[1040px] mx-auto px-gutter-mobile md:px-gutter-tablet">
+<!-- Heading -->
+<div class="text-center max-w-xl mx-auto mb-space-2xl space-y-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary">Private Inquiry</span>
+<h2 class="font-display-sm text-display-sm-mobile md:text-display-sm text-primary">
+          Tell Us About Your Love Story
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant font-light">
+          Please share a few initial details about your upcoming celebration. Our atelier will respond with personal discretion within 24 hours.
+        </p>
+</div>
+<!-- Luxury Consultation Form Card -->
+<div class="bg-surface-container-low p-space-lg md:p-space-2xl shadow-sm">
+<form class="space-y-space-lg" id="weddingInquiryForm" onsubmit="handleInquirySubmit(event)">
+<!-- Row 1: Names -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="clientName">Your Name *</label>
+<input class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" id="clientName" placeholder="e.g. Eleanor Vance" required="" type="text"/>
+</div>
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="partnerName">Partner's Name *</label>
+<input class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" id="partnerName" placeholder="e.g. Julian Hayes" required="" type="text"/>
+</div>
+</div>
+<!-- Row 2: Contact -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="clientEmail">Email Address *</label>
+<input class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" id="clientEmail" placeholder="eleanor@example.com" required="" type="email"/>
+</div>
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="clientPhone">Phone / WhatsApp *</label>
+<input class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" id="clientPhone" placeholder="+1 (555) 019-2834" required="" type="tel"/>
+</div>
+</div>
+<!-- Row 3: Date & Location -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="weddingDate">Wedding Date (or Preferred Season) *</label>
+<input class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" id="weddingDate" placeholder="e.g. September 2025 or Late Autumn" required="" type="text"/>
+</div>
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="weddingLocation">Destination / Desired Location *</label>
+<input class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" id="weddingLocation" placeholder="e.g. Lake Como, Tuscany, Provence, or Paris" required="" type="text"/>
+</div>
+</div>
+<!-- Row 4: Guest Count & Budget -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="guestCount">Estimated Guest Count</label>
+<input class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" id="guestCount" placeholder="e.g. 100 — 150 guests" type="text"/>
+</div>
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="estimatedBudget">Estimated Investment Range</label>
+<select class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface focus:outline-none focus:ring-1 focus:ring-secondary" id="estimatedBudget">
+<option disabled="" selected="" value="">Select anticipated budget tier</option>
+<option value="75k-150k">$75,000 — $150,000</option>
+<option value="150k-300k">$150,000 — $300,000</option>
+<option value="300k-500k">$300,000 — $500,000</option>
+<option value="500k+">$500,000+</option>
+</select>
+</div>
+</div>
+<!-- Row 5: Story & Visions -->
+<div class="space-y-space-2xs">
+<label class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant block" for="weddingStory">Tell Us About Your Vision &amp; Love Story</label>
+<textarea class="w-full bg-surface px-space-md py-3.5 font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-1 focus:ring-secondary" id="weddingStory" placeholder="Describe your aesthetic inspirations, venue hopes, musical style, or any unique architectural elements you envision..." rows="4"></textarea>
+</div>
+<!-- Submit Button & Feedback -->
+<div class="pt-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
+<button class="inline-flex items-center justify-center font-label-md text-label-md uppercase px-10 py-4 bg-primary-container text-on-primary hover:bg-primary transition-all duration-300 tracking-[0.2em] shadow-md hover:shadow-lg" id="submitBtn" type="submit">
+<span>Request Private Consultation</span>
+</button>
+<div class="flex items-center gap-space-xs text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified_user</span>
+<span class="font-body-sm text-body-sm italic">Discreet and confidential. Inquiries for 2025 &amp; 2026 are open.</span>
+</div>
+</div>
+<div class="hidden p-space-md bg-secondary-container text-on-secondary-fixed text-center font-body-md text-body-md" id="formSuccessMessage">
+            Thank you dearly. Your bespoke inquiry has been received. Our managing director will reach out within 24 hours.
+          </div>
+</form>
+</div>
+</div>
+</section>
+<!-- INLINE CLIENT SCRIPT -->
+<script>
+    function handleInquirySubmit(event) {
+      event.preventDefault();
+      var btn = document.getElementById('submitBtn');
+      var successMsg = document.getElementById('formSuccessMessage');
+      
+      btn.disabled = true;
+      btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[18px] mr-2">progress_activity</span> Transmitting...';
+      
+      setTimeout(function() {
+        btn.innerHTML = 'Sent with Grace';
+        successMsg.classList.remove('hidden');
+        document.getElementById('weddingInquiryForm').reset();
+      }, 900);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low pt-space-3xl pb-space-2xl"><div class="max-w-[1440px] mx-auto px-gutter-mobile md:px-gutter-tablet lg:px-gutter-desktop"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl pb-space-2xl"><div class="lg:col-span-4 space-y-space-md"><div class="flex items-center gap-space-sm"><img alt="L'Éternelle Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Wb8uZQ-tXryT640L1p8awFUlsNI8mMUQd1Bv8lyvhtUAToVx0s-6kH4AEdGF2gLbNagDTCtrtCXJ5ndT_Dd62GHB176Wi_6O1nQS0SMKIQ2sLNtGphQMRO9anFFiEK53Iivepv8mbySzSRKI-iiiz1p3lVHIWSxGHjh7r3Vty43q4mMga2YielmA0SQtBIHhMWHNitMvHXKK81yGk4vy1iaeDkFpBK7XyhN_j8Vd694aMb-2X3btN25S9s"/><span class="font-headline-md text-headline-md text-primary tracking-wide">L'Éternelle</span></div><p class="font-headline-sm text-headline-sm italic text-secondary font-normal">Turning Your Love Story Into an Unforgettable Celebration</p><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">A bespoke couture wedding atelier crafting timeless editorial experiences, architectural floral installations, and reverent celebrations globally.</p></div><div class="lg:col-span-2 space-y-space-sm"><h4 class="font-label-lg text-label-lg uppercase tracking-widest text-primary">Studios</h4><ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant"><li>18 Place Vendôme, Paris</li><li>Via Regina 42, Lake Como</li><li>640 Madison Ave, New York</li><li class="pt-space-xs text-secondary font-label-sm text-label-sm uppercase">Available Worldwide</li></ul></div><div class="lg:col-span-2 space-y-space-sm"><h4 class="font-label-lg text-label-lg uppercase tracking-widest text-primary">Directory</h4><ul class="space-y-space-xs font-label-md text-label-md uppercase"><li class="py-space-2xs"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">The Atelier</a></li><li class="py-space-2xs"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#">Services &amp; Artistry</a></li><li class="py-space-2xs"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="weddings" href="#">Weddings Portfolio</a></li><li class="py-space-2xs"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="testimonials" href="#">Kind Words</a></li><li class="py-space-2xs"><a class="text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Private Inquiries</a></li></ul></div><div class="lg:col-span-4 space-y-space-md"><h4 class="font-label-lg text-label-lg uppercase tracking-widest text-primary">Private Gazette</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Subscribe for seasonal bridal monographs, venue reveals, and destination inspiration.</p><form class="flex flex-col sm:flex-row gap-space-xs"><input class="bg-surface px-space-md py-space-sm font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none flex-1" placeholder="Your email address" type="email"/><button class="bg-primary-container text-on-primary font-label-md text-label-md uppercase px-space-md py-space-sm hover:bg-primary transition-colors tracking-widest" type="button">Inquire</button></form><div class="pt-space-xs"><span class="font-label-sm text-label-sm uppercase text-secondary tracking-widest block mb-space-2xs">Featured In Editorial Press</span><p class="font-headline-sm text-headline-sm italic text-on-surface-variant text-[17px] tracking-wide">Vogue Weddings • Over The Moon • The Lane • Harper's Bazaar</p></div></div></div><div class="pt-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md font-label-sm text-label-sm uppercase text-on-surface-variant"><div>© 2025 L'Éternelle Atelier de Mariage. All Rights Reserved.</div><div class="flex items-center gap-space-lg"><a class="hover:text-on-surface transition-colors tracking-widest" href="#">Instagram</a><a class="hover:text-on-surface transition-colors tracking-widest" href="#">Pinterest Atelier</a><a class="hover:text-on-surface transition-colors tracking-widest" href="#">Privacy &amp; Terms</a></div></div></div></footer></body></html>
